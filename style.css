@@ -1,0 +1,76 @@
+.main-block {
+    padding-top: 60px;
+    margin: 0 auto;
+    width: 1280px;
+    height: 848px;
+    background-image: url(./assets/img/start_screen/start-screen-gradient-background.png);
+}
+
+header {
+    width: 1200px;
+    height: 60px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.start-screen-content {
+    width: 1200px;
+    height: 728px;
+    margin-top: 60px;
+    margin-left: 40px;
+    border: red 1px solid;
+    display: flex;
+}
+
+.logo {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.logo-title {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    padding-left: 4px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+nav {
+    margin-left: 573px;
+    margin-top: 16px;
+    margin-bottom: 17px;
+}
+
+.nav-button {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 160%;
+    color: #CDCDCD;
+    margin-right: 30px;
+}
+
+.last {
+    margin-right: 0px;
+}
+
+.nav-button:hover {
+    cursor: pointer;
+    color: #FAFAFA;
+    border-bottom: solid #FAFAFA;
+    padding-bottom: 4px;
+}
