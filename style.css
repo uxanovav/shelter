@@ -172,7 +172,7 @@ h3 {
 .pets {
     margin: 0 auto;
     width: 1280px;
-    height: 877px;
+    height: 795px;
     padding-top: 80px;
     background-color: #F6F6F6;
 }
@@ -225,7 +225,7 @@ h3 {
 .pets-slider-card {
     height: 435px;
     width: 270px;
-    background-color: white;
+    background-color: #FAFAFA;
     border-radius: 9px;
     margin-right: 90px;
     overflow: hidden;
@@ -309,4 +309,70 @@ h3 {
 
 .pets-main-button:hover {
     background: #FDDCC4;
+}
+
+.help {
+    margin: 0 auto;
+    width: 1280px;
+    height: 611px;
+}
+
+.help-content {
+    margin-top: 80px;
+    margin-left: 40px;
+    width: 1200px;
+    height: 431px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.help-h {
+    white-space: nowrap;
+    text-align: center;
+    width: 308px;
+    height: 90px;
+}
+
+.first-line-items {
+    margin-top: 25px;
+    display: flex;
+    width: 1026px;
+    height: 113px;
+    justify-content: space-between;
+}
+
+.second-line-items {
+    margin-top: 55px;
+    display: flex;
+    width: 980px;
+    height: 113px;
+    justify-content: space-around;
+}
+
+.help-firstline {
+    height: 113px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.help-title {
+    margin-top: 30px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.help-secondline {
+    height: 113px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
