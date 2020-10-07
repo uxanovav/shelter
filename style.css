@@ -114,4 +114,56 @@ nav {
 }
 
 .button-primary:hover {
-    background: #FDDCC4;}
+    background: #FDDCC4;
+}
+
+.about-the-shelter {
+    width: 1280px;
+    height: 588px;
+    margin: 0 auto;
+}
+
+.about-content {
+    width: 1200px;
+    height: 408px;
+    margin-top: 80px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.about-image {
+    margin-left: 175px;
+}
+
+.about-article {
+    margin-left: 120px;
+    margin-top: 14px;
+    width: 430px;
+    height: 380px;
+}
+
+h3 {
+    margin-top: 0;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.about-h {
+    width: 370px;
+    margin-bottom: 0;
+}
+
+.about-p {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 160%;
+    margin-top: 25px;
+    color: #4C4C4C;
+}
