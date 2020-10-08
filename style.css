@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+    color: red;
+}
+
 .main-block {
     padding-top: 60px;
     margin: 0 auto;
@@ -325,7 +330,7 @@ h3 {
 .help {
     margin: 0 auto;
     width: 1280px;
-    height: 611px;
+    height: 534px;
 }
 
 .help-content {
@@ -389,7 +394,7 @@ h3 {
 }
 
 .donation {
-    margin: 100px auto;
+    margin: 0 auto;
     padding-top: 80px;
     width: 1280px;
     height: 462px;
@@ -436,8 +441,6 @@ h3 {
     width: 335px;
     height: 43px;
     margin-top: -5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
     padding-left: 15px;
     border-radius: 9px;
     background-color: #F1CDB3;
