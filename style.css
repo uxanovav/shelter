@@ -1,6 +1,14 @@
 a {
     text-decoration: none;
-    color: red;
+}
+
+@font-face {
+    font-family: Georgia;
+    src: url(/assets/fonts/Georgia/Georgia.ttf);
+}
+
+.hidden-el {
+    text-indent: -9999px;
 }
 
 .main-block {
@@ -397,7 +405,7 @@ h3 {
     margin: 0 auto;
     padding-top: 80px;
     width: 1280px;
-    height: 462px;
+    height: 382px;
     background-color: #F6F6F6;
 }
 
@@ -423,8 +431,6 @@ h3 {
     flex-direction: column;
     align-items: flex-start;
 }
-
-.donation-h {}
 
 .donation-title {
     font-family: Georgia;
@@ -455,6 +461,10 @@ h3 {
     color: #545454;
 }
 
+.donation-bank-form:hover {
+    background-color: #FDDCC4;
+}
+
 .donation-text {
     margin-top: 10px;
 }
@@ -466,4 +476,61 @@ h3 {
     font-size: 12px;
     line-height: 18px;
     color: #B2B2B2;
+}
+
+footer {
+    display: flex;
+    width: 1280px;
+    height: 350px;
+    margin: 0 auto;
+    background-image: url(./assets/img/footer/footer-gradient-background.png);
+}
+
+.contacts {
+    width: 278px;
+    height: 234px;
+    margin-left: 40px;
+    margin-top: 56px;
+}
+
+.adress {
+    width: 302px;
+    height: 234px;
+    margin-left: 160px;
+    margin-top: 56px;
+}
+
+.footer-puppy {
+    width: 300px;
+    height: 310px;
+    margin-left: 160px;
+    margin-top: 38px;
+    overflow: hidden;
+}
+
+.h3-footer {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.contacts-line {
+    display: flex;
+    align-items: center;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.contacts-line-text {
+    padding-left: 20px;
 }
