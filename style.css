@@ -75,6 +75,13 @@ nav {
     padding-bottom: 4px;
 }
 
+.nav-button-default {
+    cursor: pointer;
+    color: #FAFAFA;
+    border-bottom: solid #FAFAFA;
+    padding-bottom: 4px;
+}
+
 .start-screen-title {
     font-family: Georgia;
     font-style: normal;
@@ -234,6 +241,10 @@ h3 {
     align-items: center;
 }
 
+.pets-slider-card:hover {
+    box-shadow: 0 0 20px rgba(71, 70, 70, 0.5)
+}
+
 .arrow-right {
     transform: scale(-1, 1)
 }
@@ -375,4 +386,81 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.donation {
+    margin: 100px auto;
+    padding-top: 80px;
+    width: 1280px;
+    height: 462px;
+    background-color: #F6F6F6;
+}
+
+.donation-content {
+    margin-left: 183px;
+    width: 915px;
+    height: 282px;
+    display: flex;
+}
+
+.donation-dog {
+    margin-top: 9px;
+    margin-left: -3px;
+    width: 505px;
+    height: 261px;
+}
+
+.donation-article {
+    width: 380px;
+    height: 282px;
+    margin-left: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.donation-h {}
+
+.donation-title {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-top: -15px;
+}
+
+.donation-bank-form {
+    width: 335px;
+    height: 43px;
+    margin-top: -5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border-radius: 9px;
+    background-color: #F1CDB3;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.donation-text {
+    margin-top: 10px;
+}
+
+.donation-text-content {
+    font-family: Arial;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B2B2B2;
 }
