@@ -1,0 +1,139 @@
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1280px;
+    height: 1812px;
+    margin: 0 auto;
+}
+
+.hidden-el {
+    text-indent: -9999px;
+}
+
+header {
+    width: 1280px;
+    height: 120px;
+    display: flex;
+}
+
+.logotype {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.logo {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.logo-title {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #292929;
+    margin-left: 4px;
+    margin-top: 9px;
+}
+
+nav {
+    margin-top: 46px;
+    margin-left: 571px;
+}
+
+.nav-button {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 160%;
+    color: #545454;
+    margin-right: 31px;
+}
+
+.last {
+    margin-right: 0px;
+}
+
+.nav-button:hover {
+    cursor: pointer;
+    border-bottom: solid #F1CDB3;
+    padding-bottom: 4px;
+}
+
+.nav-button-default {
+    cursor: pointer;
+    border-bottom: solid #F1CDB3;
+    padding-bottom: 4px;
+}
+
+main {
+    width: 100%;
+    height: 1342px;
+}
+
+footer {
+    display: flex;
+    width: 1280px;
+    height: 350px;
+    margin: 0 auto;
+    background-image: url(../../assets/img/footer/footer-gradient-background.png);
+}
+
+.contacts {
+    width: 278px;
+    height: 234px;
+    margin-left: 40px;
+    margin-top: 22px;
+}
+
+.adress {
+    width: 302px;
+    height: 234px;
+    margin-left: 160px;
+    margin-top: 22px;
+}
+
+.footer-puppy {
+    width: 300px;
+    height: 310px;
+    margin-left: 160px;
+    margin-top: 38px;
+    overflow: hidden;
+}
+
+.h3-footer {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.contacts-line {
+    display: flex;
+    align-items: center;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.contacts-line-text {
+    padding-left: 20px;
+}
