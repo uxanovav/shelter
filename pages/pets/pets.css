@@ -137,3 +137,78 @@ footer {
 .contacts-line-text {
     padding-left: 20px;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F6F6F6;
+}
+
+.main-heading {
+    margin-top: 80px;
+    width: 400px;
+    height: 90px;
+    text-align: center;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.pets-list {
+    display: flex;
+}
+
+.pets-card-title {
+    margin-top: 30px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.pets-card-button {
+    cursor: pointer;
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 100px;
+    width: 187px;
+    height: 52px;
+    margin-top: 10px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    text-align: center;
+    line-height: 52px;
+}
+
+.pets-card-button:hover {
+    background-color: #F1CDB3;
+}
+
+.pets-slider-card {
+    height: 435px;
+    width: 270px;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+    margin-right: 90px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pets-slider-card:hover {
+    box-shadow: 0 0 20px rgba(71, 70, 70, 0.5)
+}
