@@ -713,11 +713,11 @@ footer {
     margin-right: 0;
   }
   .donation {
-      width: 768px;
-      height: 783px;
+    width: 768px;
+    height: 783px;
   }
   .donation-content {
-      margin: 0 auto;
+    margin: 0 auto;
     width: 768px;
     height: 783px;
     display: flex;
@@ -727,5 +727,36 @@ footer {
   .donation-dog {
     margin-bottom: 100px;
     margin-top: 50px;
+  }
+  footer {
+    display: flex;
+    width: 768px;
+    height: 639px;
+    margin: 0 auto;
+    background-image: url(./assets/img/footer/footer-gradient-background.png);
+    background-size: cover;
+    flex-wrap: wrap;
+  }
+  
+  .contacts {
+    width: 278px;
+    height: 234px;
+    margin-left: 40px;
+    margin-top: 56px;
+  }
+  
+  .adress {
+    width: 302px;
+    height: 234px;
+    margin-left: 120px;
+    margin-top: 56px;
+  }
+  
+  .footer-puppy {
+    width: 300px;
+    height: 310px;
+    margin-left: 230px;
+    margin-top: 40px;
+    overflow: hidden;
   }
 }
