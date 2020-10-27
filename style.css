@@ -7,6 +7,9 @@ a {
     src: url(/assets/fonts/Georgia/Georgia.ttf);
 }
 
+body {
+  margin: 0;
+}
 
 .hidden-el {
     text-indent: -9999px;

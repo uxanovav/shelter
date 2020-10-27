@@ -2,6 +2,10 @@ a {
     text-decoration: none;
 }
 
+body{
+    margin: 0;
+}
+
 .wrapper {
     width: 1280px;
     height: 1812px;
@@ -13,9 +17,11 @@ a {
 }
 
 header {
+    position: fixed;
     width: 1280px;
     height: 120px;
     display: flex;
+    background-color: #F6F6F6;
 }
 
 .logotype {
@@ -28,8 +34,10 @@ header {
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
-    line-height: 110%;
-    letter-spacing: 0.06em;
+    line-height: 110%;    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;    
     color: #545454;
 }
 
@@ -78,7 +86,7 @@ nav {
 
 main {
     width: 100%;
-    height: 1342px;
+    height: 1462px;
 }
 
 footer {
@@ -146,16 +154,16 @@ main {
 }
 
 .main-heading {
-    margin-top: 80px;
-    width: 400px;
-    height: 90px;
-    text-align: center;
+    margin-top: 200px;
     font-family: Georgia;
     font-style: normal;
     font-weight: normal;
     font-size: 35px;
-    line-height: 130%;
-    letter-spacing: 0.06em;
+    line-height: 130%;    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.085em;    
     color: #545454;
 }
 
@@ -207,8 +215,28 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 20px;
 }
 
 .pets-slider-card:hover {
     box-shadow: 0 0 20px rgba(71, 70, 70, 0.5)
+}
+
+
+.nav-block {
+    margin-top: 25px;
+     display: flex;
+}
+
+.nav-button-bottom {
+    width: 52px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    box-sizing: border-box;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    padding-top: 15px;
 }
