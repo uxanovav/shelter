@@ -954,6 +954,7 @@ footer {
   }
   .help-content {
     margin: 25px auto;
+    margin-bottom: 0;
     width: 320px;
     height: 745px;
     display: flex;
@@ -995,7 +996,7 @@ footer {
     display: grid;
     justify-content: space-between;
     grid-template-areas:
-      "help-item-petfood help-item-transportation" 
+      "help-item-petfood help-item-transportation"
       "help-item-toys help-item-bowls"
       "help-item-shampoos help-item-vitamins"
       "help-items-medicines help-items-cpllars"
@@ -1013,49 +1014,93 @@ footer {
     margin: 0;
   }
   .donation {
-    width: 768px;
-    height: 783px;
+    width: 320px;
+    height: 543px;
+    padding: 0;
+    padding-top: 0px;
   }
+
   .donation-content {
     margin: 0 auto;
-    width: 768px;
-    height: 783px;
+    width: 320px;
+    height: 543px;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
   }
   .donation-dog {
-    margin-bottom: 100px;
-    margin-top: 50px;
+    width: 260px;
+    height: 135px;
+    margin-bottom: 50px;
   }
+
+  .donation-dog > img {
+    width: 260px;
+    height: 135px;
+  }
+  .donation-bank-form {
+    width: 281px;
+    font-size: 15px;
+  }
+
+  .donation-article {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .donation-text {
+    width: 280px;
+    text-align: justify;
+  }
+  .donation-h {
+    font-size: 25px;
+    text-align: center;
+    width: 300px;
+  }
+
+  .donation-title {
+    font-size: 14px;
+    width: 300x;
+    text-align: center;
+  }
+
   footer {
     display: flex;
-    width: 768px;
-    height: 639px;
+    width: 320px;
+    height: 899px;
     margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
     background-image: url(./assets/img/footer/footer-gradient-background.png);
     background-size: cover;
-    flex-wrap: wrap;
   }
 
   .contacts {
     width: 278px;
     height: 234px;
-    margin-left: 40px;
-    margin-top: 56px;
+    margin-left: 0;
+    margin-top: 30px;
   }
 
+  footer > .adress > .h3-footer {
+    text-align: center;
+  }
+  footer > .contacts > .h3-footer {
+    text-align: center;
+  }
   .adress {
     width: 302px;
     height: 234px;
-    margin-left: 120px;
+    margin-left: 0;
     margin-top: 56px;
   }
 
   .footer-puppy {
     width: 300px;
     height: 310px;
-    margin-left: 230px;
+    margin-left: 0;
     margin-top: 40px;
     overflow: hidden;
   }
