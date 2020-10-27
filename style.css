@@ -944,13 +944,21 @@ footer {
     margin-right: 0;
   }
   .help {
-    width: 768px;
-    height: 680px;
+    width: 320px;
+    height: 745px;
+  }
+
+  .help-h {
+    font-size: 25px;
+    width: 220px;
   }
   .help-content {
-    margin: 80px auto;
-    width: 630px;
-    height: 599px;
+    margin: 25px auto;
+    width: 320px;
+    height: 745px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   #help-item-petfood {
@@ -982,19 +990,27 @@ footer {
   }
   .first-line-items {
     margin: 0 auto;
-    width: 630px;
-    height: 449px;
+    width: 290px;
+    height: 555px;
     display: grid;
+    justify-content: space-between;
     grid-template-areas:
-      "help-item-petfood help-item-transportation help-item-toys"
-      "help-item-bowls help-item-shampoos help-item-vitamins"
-      "help-items-medicines help-items-cpllars help-items-areas";
+      "help-item-petfood help-item-transportation" 
+      "help-item-toys help-item-bowls"
+      "help-item-shampoos help-item-vitamins"
+      "help-items-medicines help-items-cpllars"
+      "help-items-areas help-items-areas";
   }
   .help-firstline {
-    margin-right: 0;
+    margin: 0;
   }
+  .help-title {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
   .help-secondline {
-    margin-right: 0;
+    margin: 0;
   }
   .donation {
     width: 768px;
