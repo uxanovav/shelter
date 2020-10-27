@@ -610,7 +610,6 @@ footer {
     width: 768px;
     height: 1048px;
     margin: 0 auto;
-    border: 1px red solid;
   }
   
   .about-content {
@@ -621,7 +620,6 @@ footer {
     margin-right: auto;
     display: flex;
     flex-direction: column-reverse;
-    border: 1px red solid;
   }
   
   .about-image {
