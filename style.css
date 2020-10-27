@@ -12,7 +12,7 @@ body {
 }
 
 .puppy {
-    margin-left: 42px;
+  margin-left: 42px;
 }
 
 .hidden-el {
@@ -367,22 +367,17 @@ h3 {
 }
 
 .first-line-items {
-  margin-top: 25px;
+  width: 1200px;
+  margin-left: 150px;
   display: flex;
-  width: 1026px;
-  height: 113px;
-  justify-content: space-between;
-}
-
-.second-line-items {
-  margin-top: 55px;
-  display: flex;
-  width: 980px;
-  height: 113px;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-basis: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
 .help-firstline {
+  margin-right: 130px;
   height: 113px;
   width: auto;
   display: flex;
@@ -407,6 +402,8 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 30px;
+  margin-right: 130px;
 }
 
 .donation {
@@ -611,7 +608,7 @@ footer {
     height: 1048px;
     margin: 0 auto;
   }
-  
+
   .about-content {
     width: 437px;
     height: 868px;
@@ -621,13 +618,13 @@ footer {
     display: flex;
     flex-direction: column-reverse;
   }
-  
+
   .about-image {
     margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .about-article {
     margin-top: 14px;
     width: 430px;
@@ -635,7 +632,84 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
-  
+  .pets {
+    width: 768px;
+    height: 777px;
+  }
+  .pets-content {
+    width: 708px;
+    height: 697px;
+    margin: 0 auto;
+  }
+  .pets-slider {
+    width: 708px;
+    height: 435px;
+    justify-content: space-between;
+  }
+  .pets-slider-card:nth-child(4) {
+    display: none;
+  }
+  .pets-slider-left {
+    margin-right: 12px;
+  }
+  .pets-slider-right {
+    margin-left: 12px;
+  }
+  .pets-slider-card {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .help {
+    width: 768px;
+    height: 779px;
+  }
+  .help-content {
+    margin: 80px auto;
+    width: 630px;
+    height: 599px;
+  }
 
-
+  #help-item-petfood {
+    grid-area: help-item-petfood;
+  }
+  #help-item-transportation {
+    grid-area: help-item-transportation;
+  }
+  #help-item-toys {
+    grid-area: help-item-toys;
+  }
+  #help-item-bowls {
+    grid-area: help-item-bowls;
+  }
+  #help-item-shampoos {
+    grid-area: help-item-shampoos;
+  }
+  #help-item-vitamins {
+    grid-area: help-item-vitamins;
+  }
+  #help-items-medicines {
+    grid-area: help-items-medicines;
+  }
+  #help-items-cpllars {
+    grid-area: help-items-cpllars;
+  }
+  #help-items-areas {
+    grid-area: help-items-areas;
+  }
+  .first-line-items {
+    margin: 0 auto;
+    width: 630px;
+    height: 449px;
+    display: grid;
+    grid-template-areas:
+      "help-item-petfood help-item-transportation help-item-toys"
+      "help-item-bowls help-item-shampoos help-item-vitamins"
+      "help-items-medicines help-items-cpllars help-items-areas";
+  }
+  .help-firstline {
+    margin-right: 0;
+  }
+  .help-secondline {
+    margin-right: 0;
+  }
 }
