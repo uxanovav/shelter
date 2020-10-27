@@ -661,7 +661,7 @@ footer {
   }
   .help {
     width: 768px;
-    height: 779px;
+    height: 680px;
   }
   .help-content {
     margin: 80px auto;
@@ -711,5 +711,21 @@ footer {
   }
   .help-secondline {
     margin-right: 0;
+  }
+  .donation {
+      width: 768px;
+      height: 783px;
+  }
+  .donation-content {
+      margin: 0 auto;
+    width: 768px;
+    height: 783px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .donation-dog {
+    margin-bottom: 100px;
+    margin-top: 50px;
   }
 }
