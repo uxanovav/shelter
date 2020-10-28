@@ -8,7 +8,6 @@ body{
 
 .wrapper {
     width: 1280px;
-    height: 1812px;
     margin: 0 auto;
 }
 
@@ -257,4 +256,57 @@ main {
 }
 .middle-button {
     background-color: #F1CDB3;
+}
+@media (min-width: 768px) and (max-width: 1279px) {
+    .wrapper {
+        width: 768px;
+        margin: 0 auto;
+    }
+    body {
+        width: 768px;
+    }
+    
+    header {
+        width: 768px;
+        height: 120px;
+        position: fixed;
+    }
+    nav{
+        margin-left: 81px;
+    }
+    main {
+        width: 768px;
+        height: auto;
+    }
+    .pets-list {
+        width: 693px;
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+        margin-left: 75px;
+        flex-wrap: wrap;
+    }
+    .dpl {
+        display: none;
+    }
+    .nav-block {
+        margin-bottom: 30px;
+    }
+    footer {
+        height: auto;
+        width: 768px;
+        display: flex;
+        flex-wrap: wrap;
+        background-size: cover;
+    }
+    .contacts {
+        margin-left: 80px;
+    }
+    .adress {
+        margin-left: 80px;
+    }
+    .footer-puppy {
+        margin-top: 65px;
+        margin-left: 234px;
+    }
 }
