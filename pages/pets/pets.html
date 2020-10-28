@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pets page</title>
-    <link rel="stylesheet" href="pets.css">
+    <link rel="stylesheet" href="./pets.css">
 </head>
 <body>
 <section class="wrapper">
+    <div class = "burger-menu">
+            <a href="index.html"><p class="bm">About the shelter</p></a>
+            <a href="pets.html"><p class="bm">Our pets</p></a>
+            <p class=" bm">Help the shelter</p>
+            <p class="bm">Contacts</p>
+    </div>
     <header>
         <a href="../../index.html"><div class="logotype">
             <span class="logo">Cozy House</span>
@@ -17,11 +23,11 @@
          </a>
         <nav>
             <a href="../../index.html"><span class="nav-button">About the shelter</span></a>
-            <a href="../pets/pets.html"><span class="nav-button nav-button-default">Our pets</span></a>
+            <a href="./pets/pets.html"><span class="nav-button nav-button-default">Our pets</span></a>
             <span class="nav-unactive">Help the shelter</span>
             <span class="nav-unactive last">Contacts</span>
         </nav>
-        <div class="burger"><img src="../../assets/img/pets/Burger.png"></div>
+        <div class="burger"><img id="burger-icon" src="../../assets/img/pets/Burger.png"></div>
     </header>
     <main>
         <p class="main-heading">Our friends who <br>are looking for a house</p>
@@ -119,5 +125,6 @@
         </divc>
     </footer>
 </section>
+<script src="./assets/scripts/index.js"></script>
 </body>
 </html>

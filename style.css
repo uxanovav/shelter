@@ -23,6 +23,10 @@ body {
   display: none;
 }
 
+.burger-menu {
+  display: none;
+}
+
 .slider-button {
   display: none;
 }
@@ -61,6 +65,7 @@ header {
   align-items: center;
   letter-spacing: 0.06em;
   color: #f1cdb3;
+  transition: 0.5s ease;
 }
 
 .logo-title {
@@ -75,6 +80,7 @@ header {
   align-items: center;
   letter-spacing: 0.1em;
   color: #ffffff;
+  transition: 0.5s ease;
 }
 
 nav {
@@ -105,6 +111,12 @@ nav {
 
 .last {
   margin-right: 0px;
+}
+
+.bm {
+  margin: 0;
+  border-bottom: solid #646464;
+  padding-bottom: 10px;
 }
 
 .nav-button:hover {
@@ -794,12 +806,31 @@ footer {
     margin-left: 10px;
     margin-right: 53px;
     display: flex;
+
   }
 
   .burger {
     margin-top: 20px;
     display: inline;
     margin-left: 40px;
+  }
+
+  .burger-menu {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    position: fixed;
+    left: 10px;
+    right: 10px;
+    top: 100px;
+    z-index: 555;
+    margin: 0 auto;
+    width: 300px;
+    overflow: hidden;
+    height: 0px;
+    transition: 0.5s ease;
+    background-image: url(./assets/img/start_screen/start-screen-gradient-background.png);
+    opacity: 0.95;
   }
 
   nav {

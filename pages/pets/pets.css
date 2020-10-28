@@ -18,6 +18,11 @@ body {
 .burger {
   display: none;
 }
+
+.burger-menu {
+    display: none;
+  }
+
 header {
   position: fixed;
   width: 1280px;
@@ -41,6 +46,7 @@ header {
   align-items: center;
   letter-spacing: 0.1em;
   color: #545454;
+  transition: 0.5s ease;
 }
 
 .logo-title {
@@ -53,6 +59,7 @@ header {
   color: #292929;
   margin-left: 4px;
   margin-top: 9px;
+  transition: 0.5s ease;
 }
 
 nav {
@@ -89,6 +96,12 @@ nav {
   border-bottom: solid #f1cdb3;
   padding-bottom: 4px;
 }
+
+.bm {
+    margin: 0;
+    border-bottom: solid #fafafa;
+    padding-bottom: 10px;
+  }
 
 .nav-button-default {
   cursor: pointer;
@@ -343,6 +356,25 @@ main {
     margin-left: 40px;
     margin-top: 50px;
   }
+
+  .burger-menu {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    position: fixed;
+    left: 10px;
+    right: 10px;
+    top: 100px;
+    z-index: 555;
+    margin: 0 auto;
+    width: 300px;
+    overflow: hidden;
+    height: 0px;
+    transition: 0.5s ease;
+    background-color: white;
+    opacity: 0.95;
+  }
+
   .main-heading {
     font-size: 25px;
   }
