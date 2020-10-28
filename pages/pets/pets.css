@@ -67,6 +67,16 @@ nav {
     margin-right: 31px;
 }
 
+.nav-unactive {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 160%;
+    color: #545454;
+    margin-right: 31px;
+}
+
 .last {
     margin-right: 0px;
 }
