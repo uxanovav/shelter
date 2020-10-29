@@ -299,6 +299,7 @@ main {
   body {
     width: 768px;
   }
+  
   a {
     margin-left: 0;
   }
@@ -308,7 +309,13 @@ main {
     position: fixed;
   }
   nav {
-    margin-left: 81px;
+    margin-left: 51px;
+  }
+  .nav-button{
+    margin: 10px;
+  }
+  .nav-unactive {
+    margin: 10px;
   }
   main {
     width: 768px;
