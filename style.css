@@ -250,7 +250,9 @@ h3 {
   height: 90px;
   text-align: center;
 }
-
+.slider-cards {
+  display: flex;
+}
 .pets-slider {
   width: 1200px;
   height: 435px;
